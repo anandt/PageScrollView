@@ -23,8 +23,7 @@ class CollectionCell: UICollectionViewCell,MKMapViewDelegate {
     @IBOutlet weak var mapKit: MKMapView!
     @IBOutlet weak var addressLabel: UITextView!
     var coordinate:CLLocationCoordinate2D!
- 
-}
+ }
 
 extension CollectionCell{
 
